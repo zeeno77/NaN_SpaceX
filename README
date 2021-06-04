@@ -1,10 +1,11 @@
+This program creates trello cards from json requests
 
 Requirements:
         See requirements.txt file or type:
         pip install -r requirements.txt
 
 
-To configure the program write your Trello parameters on confs/conf.json
+To configure the program you must write your Trello parameters on confs/conf.json
 
 To run the program just go to the root folder of the project and type:
         python trello-myddleware.py
