@@ -1,0 +1,21 @@
+
+Requirements:
+        See requirements.txt file or type:
+        pip install -r requirements.txt
+
+
+To configure the program write your Trello parameters on confs/conf.json
+
+To run the program just go to the root folder of the project and type:
+        python trello-myddleware.py
+
+To run all the testCases go to the root folder type:
+        python -m pytest tests/
+
+Notes:
+        -If there were any missing or wrong parameters the server'll return "400 - Bad Request"
+        -Any extra parameters will be ignored
+        -The request handler is case sensitive, so a petition with "type":"bug" will pass and one with "type":"Bug" not
+
+You have examples to test the application in the examples folder.
+

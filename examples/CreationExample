@@ -1,0 +1,29 @@
+curl \
+-H "Content-Type application/json" \
+--request POST \
+--data '{"type":"bug", "description":"ZeroDayBug01"}' \
+http://localhost:3000/
+
+curl \
+-H "Content-Type application/json" \
+--request POST \
+--data '{"type":"issue", "title":"FirstIssue", "description":"aVery important Issue #1"}' \
+http://localhost:3000/
+
+curl \
+-H "Content-Type application/json" \
+--request POST \
+--data '{"type":"task", "title":"FirstMaintenance", "category":"Maintenance"}' \
+http://localhost:3000/
+
+curl \
+-H "Content-Type application/json" \
+--request POST \
+--data '{"type":"task", "title":"FirstTest", "category":"Test"}' \
+http://localhost:3000/
+
+curl \
+-H "Content-Type application/json" \
+--request POST \
+--data '{"type":"task", "title":"FirstResearch", "category":"Research"}' \
+http://localhost:3000/
