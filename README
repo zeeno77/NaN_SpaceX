@@ -1,6 +1,9 @@
 This program creates trello cards from json requests
 
 Requirements:
+        -Python 3.8
+        -flask
+        -trello
         See requirements.txt file or type:
         pip install -r requirements.txt
 
